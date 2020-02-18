@@ -21,10 +21,10 @@
    <htailarm  unit="FT" >    15.09 </htailarm>
    <vtailarea  unit="FT2">   25.19 </vtailarea>
    <vtailarm  unit="FT" >    13.02 </vtailarm>
-   <location name="AERORP" unit="IN">
-     <x>   250.79 </x>
+   <location name="AERORP" unit="M">
+     <x>   -0.337895 </x>
      <y>     0.00 </y>
-     <z>     0.00 </z>
+     <z>    -0.539576 </z><!-- top of wing: -0.699626 -->
    </location>
    <location name="EYEPOINT" unit="IN">
      <x>   120.93 </x>
@@ -43,10 +43,10 @@
    <iyy unit="SLUG*FT2">   9857.69 </iyy>
    <izz unit="SLUG*FT2">  13283.21 </izz>
    <emptywt unit="LBS" >   7563.15 </emptywt>
-   <location name="CG" unit="IN">
-     <x>   250.79 </x>
+   <location name="CG" unit="M">
+     <x>   -0.429335 </x>
      <y>     0.00 </y>
-     <z>   -10.80 </z>
+     <z>  -0.539576 </z>
    </location>
    <pointmass name="Payload">
     <description> 4343.19 LBS should bring model up to entered max weight </description>
@@ -62,10 +62,10 @@
  <propulsion>
 
    <engine file="Rolls-Royce Viper MK680-43">
-    <location unit="IN">
-      <x>   371.89 </x>
+    <location unit="M">
+      <x>   4.97634 </x>
       <y>     0.00 </y>
-      <z>     0.00 </z>
+      <z>    -0.539576 </z>
     </location>
     <orient unit="DEG">
       <pitch>     0.00 </pitch>
@@ -76,10 +76,10 @@
 
     <thruster file="direct">
      <sense> 1 </sense>
-     <location unit="IN">
-       <x>   371.89 </x>
+     <location unit="M">
+       <x>  4.97634 </x>
        <y>     0.00 </y>
-       <z>     0.00 </z>
+       <z>   -0.539576 </z>
      </location>
      <orient unit="DEG">
        <pitch>     0.00 </pitch>
@@ -90,19 +90,19 @@
   </engine>
 
   <tank type="FUEL" number="0">
-     <location unit="IN">
-       <x>   250.79 </x>
-       <y>     0.00 </y>
-       <z>   -10.80 </z>
+     <location unit="M">
+       <x>   -0.429335 </x>
+     <y>     0.00 </y>
+     <z>  -0.539576 </z>
      </location>
      <capacity unit="LBS"> 827.21 </capacity>
      <contents unit="LBS"> 413.60 </contents>
   </tank>
   <tank type="FUEL" number="1">
-     <location unit="IN">
-       <x>   250.79 </x>
-       <y>     0.00 </y>
-       <z>   -10.80 </z>
+     <location unit="M">
+       <x>   -0.429335 </x>
+     <y>     0.00 </y>
+     <z>  -0.539576 </z>
      </location>
      <capacity unit="LBS"> 827.21 </capacity>
      <contents unit="LBS"> 413.60 </contents>
@@ -113,10 +113,10 @@
  <ground_reactions>
 
   <contact type="BOGEY" name="NOSE">
-    <location unit="IN">
-      <x>    56.15 </x>
+    <location unit="M">
+      <x>    -4.35982 </x>
       <y>     0.00 </y>
-      <z>   -51.83 </z>
+      <z>   -1.80132 </z>
     </location>
     <static_friction>  0.80 </static_friction>
     <dynamic_friction> 0.50 </dynamic_friction>
@@ -129,10 +129,10 @@
   </contact>
 
   <contact type="BOGEY" name="LEFT_MAIN">
-    <location unit="IN">
-      <x>   260.82 </x>
-      <y>   -64.13 </y>
-      <z>   -51.83 </z>
+    <location unit="M">
+      <x>   0.11855 </x>
+      <y>   -1.31594 </y>
+      <z>   -1.66296 </z>
     </location>
     <static_friction>  0.80 </static_friction>
     <dynamic_friction> 0.50 </dynamic_friction>
@@ -145,10 +145,10 @@
   </contact>
 
   <contact type="BOGEY" name="RIGHT_MAIN">
-    <location unit="IN">
-      <x>   260.82 </x>
-      <y>    64.13 </y>
-      <z>   -51.83 </z>
+    <location unit="M">
+      <x>   0.11855 </x>
+      <y>   1.31594 </y>
+      <z>   -1.66296 </z>
     </location>
     <static_friction>  0.80 </static_friction>
     <dynamic_friction> 0.50 </dynamic_friction>
@@ -280,7 +280,7 @@
        <product>
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
-          <value> 0.0142 </value>
+          <value> 0.0042 </value>
        </product>
     </function>
 
@@ -442,7 +442,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/cbarw-ft</property>
            <property>aero/alpha-rad</property>
-           <value> -1.0364 </value>
+           <value> -0.01364 </value>
        </product>
     </function>
 
