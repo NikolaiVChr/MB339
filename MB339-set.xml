@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+
+    <description>Aermacchi MB339</description>
+    <long-description>
+      Aermacchi MB339 is a military trainer
+  </long-description>
+  <author></author>
+  <aircraft-version>0.01</aircraft-version>
+  <minimum-fg-version>2018.3</minimum-fg-version>
+  <status>alpha</status>
+  <rating>
+    <FDM type="int">0</FDM>
+    <systems type="int">0</systems>
+    <cockpit type="int">0</cockpit>
+    <model type="int">0</model>
+  </rating>
+    <flight-model>jsb</flight-model>
+    <aero>jsb-MB339</aero>
+
+    <fuel-fraction>1</fuel-fraction>
+
+    <model>
+      <path>Aircraft/MB339/Models/mb339.ac</path>
+    </model>
+    
+  </sim> 
+  <engines>
+      <engine n="0">
+          <running type="bool">true</running>
+      </engine>
+  </engines>   
+</PropertyList>
+    
