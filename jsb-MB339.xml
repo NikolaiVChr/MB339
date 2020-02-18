@@ -24,7 +24,7 @@
    <location name="AERORP" unit="M">
      <x>   -0.337895 </x>
      <y>     0.00 </y>
-     <z>    -0.539576 </z><!-- top of wing: -0.699626 -->
+     <z>    -0.699626 </z><!-- top of wing: -0.699626 -->
    </location>
    <location name="EYEPOINT" unit="IN">
      <x>   120.93 </x>
@@ -46,7 +46,7 @@
    <location name="CG" unit="M">
      <x>   -0.429335 </x>
      <y>     0.00 </y>
-     <z>  -0.539576 </z>
+     <z>  -0.547834 </z>
    </location>
    <pointmass name="Payload">
     <description> 4343.19 LBS should bring model up to entered max weight </description>
@@ -65,7 +65,7 @@
     <location unit="M">
       <x>   4.97634 </x>
       <y>     0.00 </y>
-      <z>    -0.539576 </z>
+      <z>    -0.547834 </z>
     </location>
     <orient unit="DEG">
       <pitch>     0.00 </pitch>
@@ -79,7 +79,7 @@
      <location unit="M">
        <x>  4.97634 </x>
        <y>     0.00 </y>
-       <z>   -0.539576 </z>
+       <z>   -0.547834 </z>
      </location>
      <orient unit="DEG">
        <pitch>     0.00 </pitch>
@@ -93,7 +93,7 @@
      <location unit="M">
        <x>   -0.429335 </x>
      <y>     0.00 </y>
-     <z>  -0.539576 </z>
+     <z>  -0.547834 </z>
      </location>
      <capacity unit="LBS"> 827.21 </capacity>
      <contents unit="LBS"> 413.60 </contents>
@@ -102,7 +102,7 @@
      <location unit="M">
        <x>   -0.429335 </x>
      <y>     0.00 </y>
-     <z>  -0.539576 </z>
+     <z>  -0.547834 </z>
      </location>
      <capacity unit="LBS"> 827.21 </capacity>
      <contents unit="LBS"> 413.60 </contents>
@@ -280,7 +280,7 @@
        <product>
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
-          <value> 0.0042 </value>
+          <value> 0.0032 </value>
        </product>
     </function>
 
