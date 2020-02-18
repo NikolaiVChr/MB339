@@ -124889,7 +124889,7 @@ name "Cube.013"
 loc 1.83111 2.60899 -2.23924
 data 13
 Cube.013.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 24
 0.715132 -3.24378 2.24308
@@ -125035,7 +125035,7 @@ name "Cube.017"
 loc 3.95222 2.58788 -2.22545
 data 13
 Cube.017.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 48
 -1.58616 -2.77514 2.21857
@@ -125415,7 +125415,7 @@ name "Cylinder.002"
 loc 1.71534 2.52076 -2.23551
 data 17
 Cylinder.002.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 160
 0.429483 -3.05661 2.08428
@@ -126481,7 +126481,7 @@ name "Cylinder.003"
 loc 1.71534 2.52076 -2.23551
 data 17
 Cylinder.003.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 200
 0.532089 -3.19938 2.23092
@@ -127865,7 +127865,7 @@ name "Cylinder.010"
 loc 1.71534 2.52076 -2.23551
 data 17
 Cylinder.010.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 256
 -0.615537 -2.8619 2.26341
@@ -129475,7 +129475,7 @@ name "Cylinder.011"
 loc 1.71534 2.52076 -2.23551
 data 17
 Cylinder.011.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 744
 -0.515589 -2.74614 2.23047
@@ -133701,7 +133701,7 @@ name "engine.1.fan2"
 loc 1.71534 2.52076 -2.23551
 data 18
 engine.1.fan2.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 496
 0.505913 -2.91246 2.23917
@@ -136811,7 +136811,7 @@ name "turbofan_1"
 loc 1.71534 2.52076 -2.23551
 data 15
 turbofan_1.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 552
 -0.687158 -3.10482 2.22359
@@ -195352,7 +195352,7 @@ name "Cylinder.013"
 loc 1.71534 2.52076 -2.23551
 data 17
 Cylinder.013.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 97
 0.466503 -2.7826 2.37272
@@ -195901,7 +195901,7 @@ name "Cylinder.014"
 loc -7.78158 2.24926 -1.73107
 data 17
 Cylinder.014.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 96
 10.1075 -2.78466 1.51694
@@ -196455,7 +196455,7 @@ name "Cylinder.012"
 loc 1.71592 2.52076 -2.21508
 data 17
 Cylinder.012.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 1112
 -0.708978 -3.19992 2.50585
@@ -205050,7 +205050,7 @@ name "Cube.014"
 loc 1.71534 2.52076 -2.23551
 data 13
 Cube.014.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 48
 0.477028 -3.05649 2.04932
@@ -205332,7 +205332,7 @@ name "center.1"
 loc 1.71534 2.52076 -2.23551
 data 13
 center.1.mesh
-texture "C:/Program Files/FlightGear 2018.3.1/data/Aircraft/C-32J/Models/RB211.png"
+texture "RB211.png"
 crease 45.000000
 numvert 298
 -0.918309 -3.04615 2.23876
